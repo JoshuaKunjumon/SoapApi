@@ -151,7 +151,7 @@ namespace ServiceReference1
         {
             if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_ICustomerService))
             {
-                return new System.ServiceModel.EndpointAddress("http://localhost:5053/customerservice.asmx");
+                return new System.ServiceModel.EndpointAddress("http://localhost:8080/customerservice.asmx");
             }
             throw new System.InvalidOperationException(string.Format("Could not find endpoint with name \'{0}\'.", endpointConfiguration));
         }
